@@ -13,6 +13,7 @@ class TestGenreService:
         assert genre is not None
         assert isinstance(genre.id, int)
         assert genre.name == 'Comedy'
+
 #
 #
 #     def test_get_all(self):
