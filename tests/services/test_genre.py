@@ -14,11 +14,12 @@ class TestGenreService:
         assert isinstance(genre.id, int)
         assert genre.name == 'Comedy'
 
-#
-#
-#     def test_get_all(self):
-#         genres = self.genre_service.get_all()
-#         assert len(genres) > 0
+
+
+    def test_get_all(self):
+        genres = self.genre_service.get_all()
+        assert len(genres) > 0
+        assert len(genres) == 2
 #
 #     def test_create(self):
 #         genre_d = {'name': "New Name"}
